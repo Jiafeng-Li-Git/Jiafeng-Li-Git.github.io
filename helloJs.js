@@ -8,7 +8,7 @@ const head = {
     }
 };
 
-head.setName("My JavaScript journey!")
+head.setName("My JavaScript journey!!")
 
 const content = ` ${head.name}`;
 document.querySelector(".head").innerHTML = content;
