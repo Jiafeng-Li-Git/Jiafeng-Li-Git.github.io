@@ -1,6 +1,6 @@
 // My first JavaScript file, learning Js......
 
-const firstObj = {
+const head = {
     name: "JsObj",
     volumn: 30,
     setName: function(newName){
@@ -8,9 +8,9 @@ const firstObj = {
     }
 };
 
-firstObj.setName("My JavaScript journey!")
+head.setName("My JavaScript journey!")
 
-const content = ` <h1>${firstObj.name}<h1>`;
-document.body.innerHTML = content;
+const content = ` ${head.name}`;
+document.querySelector(".head").innerHTML = content;
 
-console.log("My first Js object:", firstObj);
+console.log("My first Js object:", head);
