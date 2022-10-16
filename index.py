@@ -12,8 +12,8 @@ def index(id=None):
     if request.method == 'POST':
         login = 'success'
         name = 'admin'
-        return render_template('index.html', name=name, login=login)
-    return render_template('index2.html')
+        return render_template('index3.html', name=name, login=login)
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
